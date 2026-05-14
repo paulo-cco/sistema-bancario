@@ -14,7 +14,7 @@ Sistema bancário simples desenvolvido em Java com foco em Programação Orienta
 ## Tecnologias
 
 - Java
-- Big Decimal
+- BigDecimal
 - Programação Orientada a Objetos(POO)
 
 ## Como executar
