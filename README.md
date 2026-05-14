@@ -1,23 +1,52 @@
-# Sistema Bancário
+# Sistema Bancário em Java
 
-## Descrição
-Sistema bancário simples desenvolvido em Java com foco em Programação Orientada a Obejtos, regras de negócio e controle de contas utilizando `BigDecimal` para valores monetários.
+## Visão Geral
+
+Sistema bancário desenvolvido em Java com foco em Programação Orientada a Objetos (POO), aplicando regras de negócio reais como validação de saldo, status de conta e operações financeiras básicas.
+
+O projeto simula o funcionamento de contas bancárias com operações como depósitos, saques, transferências e encerramento de conta.
+
+---
 
 ## Funcionalidades
 
-- Abrir conta
-- Depositar
-- Sacar
-- Transferir
-- Encerrar conta
+- Abertura de conta
+- Depósito em conta
+- Saque com validação de saldo
+- Transferência entre contas
+- Encerramento de conta
+- Validação de conta ativa antes de operações
 
-## Tecnologias
+---
+
+## Regras de Negócio
+
+- Operações só podem ser realizadas com conta ativa
+- Saques e transferências não podem exceder o saldo disponível
+- Valores monetários são tratados com `BigDecimal` para maior precisão
+- Conta inativa não permite movimentações financeiras
+
+---
+
+## Tecnologias Utilizadas
 
 - Java
-- BigDecimal
-- Programação Orientada a Objetos(POO)
+- Programação Orientada a Objetos (POO)
+- BigDecimal (precisão monetária)
 
-## Como executar
+---
 
-- Compile: `javac Main.java`
-- Execute: `java Main`
+## Estrutura do Projeto
+
+- `Conta` → Classe principal com regras financeiras
+- `Cliente` → Representa o titular da conta (nome e CPF)
+- `ContaCorrente` / `ContaPoupanca` → Tipos de conta (se aplicável)
+- `Main` → Classe de execução do sistema
+
+---
+
+## Como Executar
+
+```bash
+javac Main.java
+java Main
