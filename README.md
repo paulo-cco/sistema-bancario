@@ -1,10 +1,11 @@
-# Sistema Bancário em Java
+# Sistema Bancário
 
-Projeto desenvolvido em Java para estudo de Programação Orientada a Objetos.
+## Descrição
+Sistema bancário simples desenvolvido em Java com foco em Programação Orientada a Obejtos, regras de negócio e controle de contas utilizando `BigDecimal` para valores monetários.
 
 ## Funcionalidades
 
-- Criar conta
+- Abrir conta
 - Depositar
 - Sacar
 - Transferir
@@ -13,9 +14,10 @@ Projeto desenvolvido em Java para estudo de Programação Orientada a Objetos.
 ## Tecnologias
 
 - Java
-- POO
-- BigDecimal
+- Big Decimal
+- Programação Orientada a Objetos(POO)
 
-## Autor
+## Como executar
 
-Paulo Guimarães Vieira
+- Compile: `javac Main.java`
+- Execute: `java Main`
